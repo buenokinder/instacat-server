@@ -23,10 +23,10 @@
         "APP_NAME": "Photogram",
         // (required) - The application id to host with this server instance.
         // You can use any arbitrary string. For migrated
-        "APP_ID": "myAppId",
+        "APP_ID": "5d32ac40-589e-4c7b-8f74-99d026a87b20",
         // (required) - The master key to use for overriding ACL security.
         // You can use any arbitrary string. Keep it secret! For migrated apps, this should match your hosted Parse app.
-        "MASTER_KEY": "myMasterKey",
+        "MASTER_KEY": "yl755R2P3sw19ZnjH4692RfgO7XC1bGY",
 
         // Files save in Folder
         //"UPLOAD_LOCAL_PATH": "/storage",
