@@ -1,0 +1,27 @@
+{
+  "name": "Instacat Server",
+  "description": "An example Parse API server using the parse-server module",
+  "repository": "https://github.com/ParsePlatform/parse-server-example",
+  "logo": "https://avatars0.githubusercontent.com/u/1294580?v=3&s=200",
+  "keywords": ["node", "express", "parse"],
+  "env": {
+    "PARSE_MOUNT": {
+      "description": "Configure Parse API route.",
+      "value": "/parse"
+    },
+    "APP_ID": {
+      "description": "A unique identifier for your app.",
+      "value": "5d32ac40-589e-4c7b-8f74-99d026a87b20"
+    },
+    "MASTER_KEY": {
+      "description": "A key that overrides all permissions. Keep this secret.",
+      "value": "yl755R2P3sw19ZnjH4692RfgO7XC1bGY"
+    },
+    "SERVER_URL": {
+      "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
+      "value": "http://instacat2.herokuapp.com/parse"
+    }
+  },
+  "image": "heroku/nodejs",
+  "addons": ["mongolab"]
+}

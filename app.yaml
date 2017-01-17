@@ -1,0 +1,12 @@
+runtime: nodejs
+vm: true
+
+env_variables:
+  # --REQUIRED--
+  DATABASE_URI: mongodb://localhost:27017/dev
+  APP_ID: 5d32ac40-589e-4c7b-8f74-99d026a87b20
+  MASTER_KEY: <yl755R2P3sw19ZnjH4692RfgO7XC1bGY>
+  # --OPTIONAL--
+  # FILE_KEY: <your-file-key>
+  # PARSE_MOUNT: /parse
+  # CLOUD_CODE_MAIN:  
