@@ -34,7 +34,7 @@
         // Parse Dashboard
         "DASHBOARD_URL": "/dashboard",
         "DASHBOARD_USER": "admin",
-        "DASHBOARD_PASSWORD": "admin1233",
+        "DASHBOARD_PASSWORD": "admin1233"
 
 
         // (optional) - S3 for Storage Files
@@ -50,12 +50,12 @@
 //        "MAILGUN_FROM_ADDRESS": "",
 
         // Push Notification
-        "PUSH": {
-          "android": {
-            "senderId": "611364573676",
-            "apiKey": "AIzaSyD9DMWiOMDPFgZXrln4oIQxyLTlrIo9xl4"
-          }
-       }
+      //   "PUSH": {
+      //     "android": {
+      //       "senderId": "611364573676",
+      //       "apiKey": "AIzaSyD9DMWiOMDPFgZXrln4oIQxyLTlrIo9xl4"
+      //     }
+      //  }
       }
     }
   ]
