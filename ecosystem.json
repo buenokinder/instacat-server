@@ -18,7 +18,7 @@
         "DATABASE_URI": "mongodb://heroku_kxvn8tbv:sj06qgt1ql5jbig8t23o30srr@ds055565.mlab.com:55565/heroku_kxvn8tbv",
         // URL to your Parse Server (don't forget to specify http:// or https://).
         // This URL will be used when making requests to Parse Server from Cloud Code.
-        "SERVER_URL": "http://instacat2.herokuapp.com/parse",
+        "SERVER_URL": "http://instacatdev.herokuapp.com/parse/",
         // Your apps name. This will appear in the subject and body of the emails that are sent.
         "APP_NAME": "Instacat",
         // (required) - The application id to host with this server instance.
@@ -34,7 +34,7 @@
         // Parse Dashboard
         "DASHBOARD_URL": "/dashboard",
         "DASHBOARD_USER": "admin",
-        "DASHBOARD_PASSWORD": "admin123"
+        "DASHBOARD_PASSWORD": "admin123",
 
 
         // (optional) - S3 for Storage Files
@@ -50,12 +50,12 @@
 //        "MAILGUN_FROM_ADDRESS": "",
 
         // Push Notification
-//        "PUSH": {
-//          "android": {
-//            "senderId": "",
-//            "apiKey": ""
-//          }
-//        }
+        "PUSH": {
+          "android": {
+            "senderId": "trusty-splice-155802",
+            "apiKey": "AIzaSyD9DMWiOMDPFgZXrln4oIQxyLTlrIo9xl4"
+          }
+       }
       }
     }
   ]
